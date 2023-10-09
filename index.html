@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)file:///C:/Users/khady%20kounta/Desktop/html5/index.html -->
+<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title> Ma page</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+
+        <h1 class="elements"> Bienvenue sur ma page</h1>
+          
+        <div class="banniere">
+          <h1> Mon blog</h1>
+
+        </div>
+        <p class="element">ceci est le contenu de mon premier paragraphe,<br>dont le contenue est long</p>
+        <p class="ma-classe">ceci est le contenu de mon deuxiéme paragraphe</p>
+        <h2 class="grand-texe">Voila mon sous-partie h2</h2>
+        <h3>une sous-partie</h3>
+        <p>un paragraphe</p>
+        <h3>une autre sous-partie</h3>
+        <p>tiens encore un paragraphe</p>
+        <h2>Voilla mon sous-partie2</h2>
+        <h1>Les fruits rouges</h1>
+         <ul class="bordure">
+           <li>Fraises</li>
+           
+             <li>Framboises</li>
+             <li>Groseilles</li>
+        </ul>
+
+         <h1>Ma journée</h1>
+        <ol>
+          <li>Je me lève.</li>
+          <li>Je mange et je bois de l'eau.</li>
+          <li>Je retourne me coucher.</li>
+        </ol>
+        <h1>Ma grande page</h1>
+         <p class="">
+            Découvrez nos conseils d'aménagement pour :<br>
+            <a href="file:///C:/Users/khady%20kounta/Desktop/html5/index.html#cuisine">La cuisine</a><br>
+            <a href="file:///C:/Users/khady%20kounta/Desktop/html5/index.html#jardin">Le jardin</a><br>
+            <a href="file:///C:/Users/khady%20kounta/Desktop/html5/index.html#salon">Le salon</a><br>
+        </p>
+        <form method="get" action="">
+          <p>
+              Veuillez indiquer la tranche d'âge dans laquelle vous vous situez :<br>
+              <input type="radio" name="age" value="moins15" id="moins15"> <label for="moins15">Moins de 15 ans</label><br>
+              <input type="radio" name="age" value="medium15-25" id="medium15-25"> <label for="medium15-25">15-25 ans</label><br>
+              <input type="radio" name="age" value="medium25-40" id="medium25-40"> <label for="medium25-40">25-40 ans</label><br>
+              <input type="radio" name="age" value="plus40" id="plus40"> <label for="plus40">Plus de 40 ans</label>
+          </p>
+      </form>
+        <h2 id="cuisine">La cuisine</h2>
+        <p>... (beaucoup de texte) ...</p>
+        <h2 id="jardin">Le jardin</h2>
+        <p>... (beaucoup de texte) ...</p>
+        <h2 id="salon">Le salon</h2>
+        <p>... (beaucoup de texte) ...</p>
+        <p>
+          Voici une très belle photo que j'ai trouvée sur Unsplash :<br>
+         <img src="./index_files/OIP.jpeg" alt="Photo de plage vue du dessus">
+       </p>
+        
+       <div class="mon-element">
+        <h1>Ma page de pseudo-classes</h1>
+        <a href="file:///C:/Users/khady%20kounta/Desktop/html5/mon%20lien">mon lien</a>
+        <p>...... mes elements....</p>
+        <p>Les pseudo-classes sont très importantes afin de créer des apparences dynamiques en fonction des interactions avec les utilisateurs.</p>
+        <section>
+          <form action="" method="get">
+            <label for="prenom">votre prenom </label>
+            <input type="text" name="prenom" id="prenom">
+
+          </form>
+        </section>
+        
+        <table>
+          <caption>passage du vol 317</caption>
+          
+          <tr>
+            <td>NOM</td>
+            <td>AGE</td>
+            <td>PAYS</td>
+          </tr>
+          <tr>
+              <td>rassoul</td>
+              <td>29 ans</td>
+              <td>senegal</td>
+          </tr>
+          <tr>
+              <td>bachire</td>
+              <td>26 ans</td>
+              <td>États-Unis</td>
+          </tr>
+      </table>
+      <form method="get" action="">
+  <fieldset>
+     <legend>Vos coordonnées</legend> <!-- Titre du fieldset --> 
+     <label for="nom">Quel est votre nom ?</label><br>
+     <input type="text" name="nom" id="nom"><br>
+     <label for="prenom">Quel est votre prénom ?</label><br>
+     <input type="text" name="prenom" id="prenom"><br>
+     <label id="birth-date" for="birth-date">Date de naissance :</label><br>
+     <span>
+        <input type="text" name="birth-date" id="birth-date" aria-labelledby="birth-date" aria-describedby="birth-date-format" placeholder="JJ/MM/YYYY"><br>
+        
+     </span>
+     <label for="email">Quel est votre e-mail ?</label><br>
+     <input type="email" name="email" id="email"><br><br>
+     <input class="envoi" type="submit" value="Envoyer"><br>
+  </fieldset>
+  <fieldset>
+     <legend>Votre souhait</legend> <!-- Titre du fieldset -->
+     <p>
+        Faites un souhait que vous voudriez voir exaucé :
+        <input type="radio" name="souhait" value="riche" id="riche"> <label for="riche">Être riche</label>
+        <input type="radio" name="souhait" value="celebre" id="celebre"> <label for="celebre">Être célèbre</label>
+        <input type="radio" name="souhait" value="intelligent" id="intelligent"> <label for="intelligent">Être <strong>encore</strong> plus intelligent</label>
+        <input type="radio" name="souhait" value="autre" id="autre"> <label for="autre">Autre...</label>
+     </p>
+     <p>
+        <label for="precisions">Si "Autre", veuillez préciser :</label>
+        <textarea name="precisions" id="precisions" cols="40" rows="4"></textarea>
+
+     </p>
+     <input  type="submit" value="Envoyer">
+  </fieldset>
+ 
+</form>
+      <form method="get" action="">
+        <p>
+            <label for="pays">Dans quel pays habitez-vous ?</label><br>
+            <select name="pays" id="pays">
+                <option value="espagne">Espagne</option>
+                <option value="royaume-uni">Royaume-Uni</option>
+                <option value="canada">Canada</option>
+                <option value="japon">Japon</option>
+            </select>
+        </p>
+    </form>
+    <!-- Menu de navigation principale -->
+<nav class="collapse bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+      <a class="bd-toc-link" href="/docs/4.4/getting-started/introduction/">
+          Getting started
+      </a>
+
+      <ul class="nav bd-sidenav">
+          <li class="active bd-sidenav-active">
+              <a href="/docs/4.4/getting-started/introduction/">
+                  Introduction
+              </a>
+          </li>
+          <li>
+              <a href="/docs/4.4/getting-started/download/">
+                  Download
+              </a>
+          </li>
+          <li>
+              <a href="/docs/4.4/getting-started/contents/">
+                  Contents
+              </a>
+          </li>
+      </ul>
+  </div>
+</nav>
+
+<!-- Menu de navigation secondaire -->
+<nav class="d-none d-xl-block col-xl-2 bd-toc" aria-label="Secondary navigation">
+  <ul class="section-nav">
+      <li class="toc-entry toc-h2">
+          <a href="#quick-start">Quick start</a>
+          <ul>
+              <li class="toc-entry toc-h3">
+                  <a href="#css">CSS</a>
+              </li>
+              <li class="toc-entry toc-h3">
+                  <a href="#js">JS</a>
+              </li>
+          </ul>
+      </li>
+  </ul>
+</nav>
+<!-- Exemple d'une barre de recherche -->
+<div aria-label="Repositories" class="mt-2 mb-3" role="search">
+  <input
+      aria-label="Find a repository…"
+      autocomplete="off"
+class="form-control input-block mb-3 js-filterable-field js-your-repositories-search"
+      data-query-name="q"
+      data-url="https://github.com/"
+      id="dashboard-repos-filter-left"
+      placeholder="Find a repository…"
+      type="text"
+      value=""
+  />
+</div>
+<nav aria-label="Global">
+   <span class="current">
+       <span class="hidden">Current page:</span>
+       Pull requests
+   </span>
+   <a aria-label="Issues you created" href="/issues">
+     Issues
+   </a>
+   <div class="mr-3">
+       <a href="/marketplace">
+           Marketplace
+       </a>     
+   </div>
+   <a href="/explore">
+     Explore
+   </a>
+</nav>
+<ul>
+  
+      <svg role="img" width="130" height="46" viewBox="0 0 130 46" fill="none" xmlns="http://www.w3.org/2000/svg" aria-describedby="titre description">
+        <title id="titre">Batman</title>
+        <desc id="description">Le logo de Batman</desc>
+        <path d="M43.1341 0.512695H0.893433C19.9876 6.2592 21.2125 19.8957 19.4381 25.9957C61.5071 22.5752 65.2847 44.9797 65.2847 44.9797C69.7492 26.3378 97.8524 24.3424 110.96 25.6537C106.839 11.6979 121.835 3.0781 129.848 0.512695H86.7485C85.6496 9.95338 75.4156 11.0594 70.436 10.4323L69.2341 1.88091C68.6846 2.29138 68.0893 5.24444 67.8604 6.66966H62.5374C62.5374 5.71191 61.6216 3.19212 61.1637 2.05194L59.9617 10.4323C44.8512 10.4323 42.4473 3.81922 43.1341 0.512695Z" fill="black" stroke="black"/>
+     </svg>
+     <!-- Exemple d'un mauvais tableau -->
+<div>
+   <div>
+       Ingrédients pour 4 personnes
+   </div>
+   <div>
+       <div></div>
+       <div>
+           <div>
+               1 cuillère à café
+           </div>
+           <div>
+               ail en poudre
+           </div>
+       </div>
+       <div></div>
+       <div>
+           <div>
+               2 cuillère à soupe
+           </div>
+           <div>
+               crème fraîche
+           </div>
+       </div>
+       <div></div>
+       <div>
+           <div>
+               4 piece
+           </div>
+           <div>
+               Cuisse de canard confite
+           </div>
+       </div>
+   </div>
+</div>
+     
+
+        </div>
+        <div class="conteneur">
+          <div class="box">🐸 Élément 1</div>
+          <div class="box">🦊 Élément 2</div>
+          <div class="box">🦄 Élément 3</div>
+          <div class="box">🐶 Élément 4</div>
+          <div class="box">🐨 Élément 5</div>
+          <div class="box">🐒 Élément 6</div>
+          <div class="box">🦆 Élément 7</div>
+          <div class="box">🐙 Élément 8</div>
+          <div class="box">🐋 Élément 9</div>
+          <div>
+
+      </div>
+      <div class="contenu">
+        <div class="box une">Élément 1</div>
+        <div class="box deux">Élément 2</div>
+        <div class="box trois">Élément 3</div>
+      </div>  
+      
+        
+        
+   
+</div></div>
+ </body>
+ 
+
